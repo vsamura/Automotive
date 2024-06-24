@@ -21,13 +21,15 @@
   padding: 0;
 }
 
-.header {
-  background: url(/img/bg_footer.jpeg) no-repeat center center/cover;
-}
-
 .container {
   width: 1060px;
   margin: 0 auto;
+}
+
+/* Верхний блок */
+
+.header {
+  background: url(../img/bg_footer.jpeg) no-repeat center center/cover;
 }
 
 .header-box {
@@ -85,6 +87,8 @@
     padding-bottom: 180px;
 }
 
+/* Второй блок сервис */
+
 .service-box {
   padding-top: 50px;
 }
@@ -106,7 +110,7 @@
   text-align: center;
 }
 
-.card-box-logo {
+.card-logo-box {
   height: 165px;
   margin-bottom: 50px;
 }
@@ -121,3 +125,122 @@
   width: 180px;
   margin-bottom: 70px;
 }
+
+/* Третий блок история */
+
+.story{
+  background-color: rgb(19, 14, 39);
+}
+
+.story-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.story-text {
+  width: 650px;
+  color: rgb(255, 255, 255);
+  font-family: PT Serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -2%;
+  margin: 34px 0;
+}
+
+.story-link {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 19px 68px;
+  margin: 30px 0;
+  background-color: rgb(198, 35, 20);
+  border-radius: 5px;
+}
+
+.story-link:hover{
+  background: rgb(19, 14, 39);
+}
+
+/* Четвертый блок pricing */
+.pricing{
+  text-align: center;
+  background: rgb(239, 239, 239);
+}
+
+.pricing-title {
+  display: block;
+  color: rgb(19, 14, 39);
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 61px;
+  text-transform: uppercase;
+  padding: 50px 0;
+}
+
+.pricing-cards {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 70px;
+}
+
+.pricing-card {
+  background: rgb(255, 255, 255);
+  width: 340px;
+}
+
+.pricing-card-name {
+  color: rgb(22, 22, 22);
+  font-family: PT Serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28px;
+  padding: 35px 0 40px;
+}
+
+.picing-card-prace {
+  color: rgb(198, 35, 20);
+  font-family: Montserrat;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 61px;
+  padding-bottom: 30px;
+}
+
+.pricing-list {
+  color: rgb(22, 22, 22);
+  font-family: PT Serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  list-style-type: none;
+  padding-bottom: 40px;
+}
+
+.pricing-box-link{
+  margin-bottom: 50px;
+}
+
+.pricing-link {
+  color: rgb(255, 255, 255);
+  background: rgb(198, 35, 20);
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 27px;
+  padding: 11px 81px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 5px;
+
+}
+
+.pricing-link:hover{
+  background: rgb(19, 14, 39);
+}
+
+
