@@ -1,1 +1,8 @@
-Одна из первых моих работ по верстке
+Одна из первых моих работ  на GitHub  
+![screenshot](README/Automotive.png)
+
+ [GitHub Pages Automotive](https://vsamura.github.io/Automotive/)
+
+На данном этапе не реализована адаптивная версия, планирую занятся этим в ближайшее время.
+
+Сделана в ходе прохождения курса [*Frontend разработчик на HTML, CSS и JavaScript*](https://stepik.org/course/113402) автор которго Исмаил Усеинов.  
