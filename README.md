@@ -1,5 +1,5 @@
 ## Automotive 
-### Одна из первых моих работ  на GitHub  
+### Одна из первых моих работ на GitHub  
 
 ![screenshot](README/Automotive.png)
 
